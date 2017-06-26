@@ -1,0 +1,37 @@
+{
+  "name": "audio",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "audio.js",
+  "dependencies": {
+    "audio-vs1053b": "~0.2.0",
+    "capture-stack-trace": "~1.0.0",
+    "create-error-class": "~3.0.2",
+    "duplexer3": "~0.1.4",
+    "get-stream": "~3.0.0",
+    "got": "~6.7.1",
+    "ip": "~1.1.5",
+    "is-redirect": "~1.0.0",
+    "is-retry-allowed": "~1.1.0",
+    "is-stream": "~1.1.0",
+    "lowercase-keys": "~1.0.0",
+    "prepend-http": "~1.0.4",
+    "safe-buffer": "~5.0.1",
+    "sync-queue": "~0.0.1",
+    "tessel-av": "~0.15.0",
+    "tessel-mjpeg-consumer": "~1.1.0",
+    "timed-out": "~4.0.1",
+    "unzip-response": "~2.0.1",
+    "url-parse-lax": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script."
+}
